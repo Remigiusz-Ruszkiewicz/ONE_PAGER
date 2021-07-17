@@ -55,6 +55,15 @@ header {
     display: none;
 }
 
+.container {
+    width: calc(100% - 200px);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
 nav {
   z-index: 99;
   line-height:3em;
@@ -67,7 +76,7 @@ nav {
 }
 
 
-.navbar-btn {
+.navbar-button {
     text-decoration: none;
     color: black;
     margin: 0 20px;
@@ -75,7 +84,7 @@ nav {
     transition: 0.2s;
 }
 
-.navbar-btn:hover {
+.navbar-button:hover {
     color: #2ee6e0;
 }
 
@@ -205,7 +214,7 @@ nav {
     height: 100%;
     opacity: 0;
     background: url("../icon/eye.svg") no-repeat center rgba(14, 14, 14, 0.87);
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 .work-hover:hover {
@@ -269,7 +278,7 @@ video {
     margin: 70px 0 0;
 }
 
-#play-btn {
+#play-button {
     width: 90px;
     height: 100px;
     position: absolute;
@@ -365,13 +374,13 @@ video {
     display: block;
 }
 
-#clients {
+#companies {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.clients-item {
+.companies-item {
     margin: 100px;
 }
 
@@ -419,15 +428,6 @@ input {
     color: white;
     padding: 20px 40px;
     cursor: pointer;
-}
-
-.container {
-    width: calc(100% - 200px);
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
 }
 
 

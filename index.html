@@ -15,13 +15,13 @@
 
     <img id="burger" src="assets/icon/MainMenu.svg">
     <nav>
-        <a href="#banner" id="1" onclick="chcl1()" class="navbar-btn">HOME</a>
-        <a href="#about" id="2"  onClick="chcl2()" class="navbar-btn">ABOUT</a>
-        <a href="#work" id="3" onclick="chcl3()" class="navbar-btn">WORK</a>
-        <a href="#work_process" id="4" onclick="chcl4()" class="navbar-btn">PROCESS</a>
-        <a href="#services" id="5" onclick="chcl5()" class="navbar-btn">SERVICES</a>
-        <a href="#testimonials" id="6" onclick="chcl6()" class="navbar-btn">TESTIMONIALS</a>
-        <a href="#contact_form" id="7" onclick="chcl7()" class="navbar-btn">CONTACT</a>
+        <a href="#banner" id="1" onclick="chcl1()" class="navbar-button">HOME</a>
+        <a href="#about" id="2"  onClick="chcl2()" class="navbar-button">ABOUT</a>
+        <a href="#work" id="3" onclick="chcl3()" class="navbar-button">WORK</a>
+        <a href="#work-process" id="4" onclick="chcl4()" class="navbar-button">PROCESS</a>
+        <a href="#services" id="5" onclick="chcl5()" class="navbar-button">SERVICES</a>
+        <a href="#testimonials" id="6" onclick="chcl6()" class="navbar-button">TESTIMONIALS</a>
+        <a href="#contact_form" id="7" onclick="chcl7()" class="navbar-button">CONTACT</a>
     </nav>
 </header>
 <section id="banner">
@@ -122,7 +122,7 @@
         <video id="video" poster="assets/img/videoFrame.png">
             <source src="assets/video/video.mp4" type="video/mp4">
         </video>
-        <div id="play-btn" onclick="playVideo()">
+        <div id="play-button" onclick="playVideo()">
             <img id="shadow" src="assets/img/shadow.png">
             <img id="ellipse" src="assets/img/cirlce.png">
             <img id="arrow" src="assets/img/arrowright.png" alt="play button">
@@ -192,12 +192,12 @@
             <li id="2" class="slideButton" onclick="slider(event)"></li>
         </ul>
 </section>
-<div id="clients">
-    <img src="assets/img/handmade.png" alt="Handmade" class="clients-item">
-    <img src="assets/img/mountain.png" alt="Mountain" class="clients-item">
-    <img src="assets/img/collection.png" alt="Collection" class="clients-item">
-    <img src="assets/img/mountaionbike.png" alt="MountainBike" class="clients-item">
-    <img src="assets/img/handmade.png" alt="Handmade" class="clients-item">
+<div id="companies">
+    <img src="assets/img/handmade.png" alt="Handmade" class="companies-item">
+    <img src="assets/img/mountain.png" alt="Mountain" class="companies-item">
+    <img src="assets/img/collection.png" alt="Collection" class="companies-item">
+    <img src="assets/img/mountaionbike.png" alt="MountainBike" class="companies-item">
+    <img src="assets/img/handmade.png" alt="Handmade" class="companies-item">
 </div>
 <section id="contact_form">
     <h2>Need a Project?</h2>
@@ -268,7 +268,7 @@
                 }
             });
 
-            document.querySelectorAll('.navbar-btn').forEach(target => {
+            document.querySelectorAll('.navbar-button').forEach(target => {
                 target.addEventListener("click", () => {
                     if (window.matchMedia("(max-width: 800px)").matches) {
                         menu.style.display = "none";

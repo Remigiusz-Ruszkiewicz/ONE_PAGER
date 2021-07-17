@@ -1,6 +1,6 @@
 function slider(e) {
     var sliderButtons = document.getElementsByClassName('slideButton');
-    var sliderTexts = document.getElementsByClassName('slideText');
+    var sliderTexts = document.getElementsByClassName('sliderText');
     var index = e.target.id;
 
     sliderButtons[0].classList.remove("active");

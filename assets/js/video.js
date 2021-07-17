@@ -1,5 +1,5 @@
 var vid = document.getElementById('video');
-var btn = document.getElementById('play-btn');
+var btn = document.getElementById('play-button');
 
 function playVideo() {
     btn.style.display = 'none';
